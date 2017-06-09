@@ -9,5 +9,8 @@ public class Vector3 {
 		y = y_;
 		z = z_;
 	}
+	public void print(){
+		System.out.println("( X: "+x+" Y: "+y+" Z: "+z+" )");
+	}
 
 }
